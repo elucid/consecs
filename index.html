@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prime Factorizer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      padding: 20px;
+    }
+
+    #n {
+      font-size: 1.5rem;
+      padding: 10px;
+      width: 300px;
+    }
+
+    button {
+      font-size: 1.5rem;
+      padding: 10px 20px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+
+    .output {
+      font-size: 1.5rem;
+      margin-top: 20px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Consecutive sum finder</h1>
+  <input type="number" id="n" placeholder="Enter a number...">
+  <button onclick="find_sums()">Find sums</button>
+  <ul class="output" id="output"></ul>
+  <div id="error"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
